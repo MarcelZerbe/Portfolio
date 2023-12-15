@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>M.Zerbe Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      margin-bottom: 50px; 
+    }
+
+    header {
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      margin-top: 50px; 
+    }
+
+    .headline {
+      font-size: 136pt;
+      color: #D2CF75;
+      font-family: 'Bodoni MT Condensed', sans-serif;
+      margin: 0;
+      margin-left: 50px; 
+    }
+
+    .menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-right: 50px; 
+      
+    }
+
+    .menu li {
+      margin-bottom: 10px;
+    }
+
+    .menu li a {
+      text-decoration: none;
+      color: #707070;
+      font-family: 'HP Simplified', sans-serif;
+    }
+
+    .menu li a:hover {
+      text-decoration: underline;
+    }
+
+
+    .fullscreen-picture {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      position: relative; 
+    }
+
+    .text-container {
+      color: #707070;
+      font-family: 'HP Simplified', sans-serif;
+      line-height: 1.5; 
+      background-color: rgba(255, 255, 255, 0.8); 
+      padding: 20px; 
+      margin-top: 20px; 
+      margin-left: 50px; 
+    }
+
+    .text-container p {
+      margin: 0; 
+    }
+
+    .line {
+      border-top: 1px solid #707070; 
+      margin-top: 25px; 
+      padding-left: 25px; 
+      padding-right: 25px; 
+    }
+
+    .contact-info {
+      color: #707070;
+      font-family: 'HP Simplified', sans-serif;
+      margin-top: 25px; 
+      text-align: center;
+      display: flex; 
+      justify-content: flex-start; 
+      margin-left: 50px; 
+      margin-bottom: 50px; 
+    }
+
+    .contact-info p {
+      margin: 0; 
+      margin-right: 25px; 
+    }
+
+    .contact-info a {
+      text-decoration: none;
+      color: #707070;
+      font-family: 'HP Simplified', sans-serif;
+      margin-left: 25px; 
+    }
+
+    .fullscreen-picture img {
+      width: 100%;
+      display: block; 
+    }
+    
+    @media only screen and (max-width: 600px) {
+      .headline {
+        font-size: 80pt; /* Adjust font size for smaller screens */
+        margin-left: 20px; /* Adjust margin for smaller screens */
+      }
+
+      .menu {
+        flex-direction: row; /* Change menu items to horizontal layout */
+        align-items: center;
+        margin: 20px 0;
+      }
+
+      .menu li {
+        margin-bottom: 0;
+        margin-right: 20px;
+      }
+
+      .text-container {
+        margin: 20px; /* Adjust margins for smaller screens */
+      }
+
+      .contact-info {
+        flex-direction: column; /* Arrange contact info vertically */
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="headline">M.Zerbe</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="digital_painting.html">Digital Painting</a></li>
+        <li><a href="3d_modelling.html">3D Modelling</a></li>
+        <li><a href="sketchbook.html">Sketchbook</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="fullscreen-picture">
+    <img src="../digitales portfolio/Link images/frame7 sw.jpg" alt="Fullscreen Picture">
+  </div>
+  <div class="text-container">
+    <p>
+      Concept Art<br>
+      Animation<br>
+      Character Design<br>
+      And compelling stories<br><br>
+      I am a Designer from Prüm in Germany and am currently studying communication design at the University of Applied Sciences in Trier.
+    </p>
+  </div>
+  <hr class="line"> 
+  <div class="contact-info">
+    <p>E-Mail: marcelzerbe@outlook.de</p>
+    <p><a href="https://www.instagram.com/m.zee.gallery/" target="_blank">Insta</a></p>
+  </div>
+</body>
+</html>

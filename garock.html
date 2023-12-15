@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>M.Zerbe Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .container {
+      margin: 50px;
+    }
+
+    header {
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .headline {
+      font-size: 86pt;
+      color: #D2CF75;
+      font-family: 'Bodoni MT Condensed', sans-serif;
+      margin: 0;
+    }
+
+    .menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .menu li {
+      margin-bottom: 10px;
+    }
+
+    .menu li a {
+      text-decoration: none;
+      color: #707070;
+      font-family: 'HP Simplified', sans-serif;
+    }
+
+    .menu li a:hover {
+      text-decoration: underline;
+    }
+
+    .content-container {
+      display: flex;
+      align-items: flex-start;
+      margin-top: 20px;
+    }
+
+    .text-container {
+      font-family: 'HP Simplified', sans-serif;
+      color: #707070;
+      max-width: 400px;
+      margin-right: 20px;
+    }
+
+    .text-container p {
+      margin: 0 0 15px 0;
+    }
+
+    .image-container img {
+      width: 1148px;
+      height: auto;
+      margin-right: 20px; 
+    }
+
+    .subheadline {
+      font-size: 94pt;
+      color: #707070;
+      font-family: 'HP Simplified', sans-serif;
+      margin: 0;
+    }
+
+
+    .slider-wrapper {
+      position: relative;
+    }
+
+    .slider {
+      display: flex;
+      aspect-ratio: 16/9;
+      overflow-x: auto;
+    }
+
+    .slider img {
+      flex: 1 0 100%;
+      scroll-snap-align: start;
+      object-fit: cover;
+    }
+    
+    .characters {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      padding-left: 25%;
+      padding-right: 25%;
+    }
+
+    .grid {
+      display: flex; 
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 40px 20px 0 20px;
+    }
+
+    .grid .models {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 45%;
+    }
+
+    .grid .models img{
+      width: 100%;
+      padding-bottom: 15px;
+    }
+
+    .grid .frames {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 45%;
+    }
+
+    .grid .frames img{
+      width: 100%;
+      padding-bottom: 15px;
+    }
+
+    .line {
+      border-top: 1px solid #707070; 
+      margin-top: 25px; 
+      padding-left: 25px; 
+      padding-right: 25px; 
+    }
+
+    .contact-info {
+      color: #707070;
+      font-family: 'HP Simplified', sans-serif;
+      margin-top: 25px; 
+      text-align: center;
+      display: flex; 
+      justify-content: flex-start; 
+      margin-left: 50px; 
+      margin-bottom: 50px; 
+    }
+
+    .contact-info p {
+      margin: 0; 
+      margin-right: 25px; 
+    }
+
+    .contact-info a {
+      text-decoration: none;
+      color: #707070;
+      font-family: 'HP Simplified', sans-serif;
+      margin-left: 25px; 
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="headline">M.Zerbe</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="digital_painting.html">Digital Painting</a></li>
+          <li><a href="3d_modelling.html">3D Modelling</a></li>
+          <li><a href="sketchbook.html">Sketchbook</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+      <h2 class="subheadline">Garbage Rock</h2>
+      
+      <div class="content-container">
+      <div class="image-container">
+        <img src="../digitales portfolio/Garbage Rock/Frames/frame1 sw.jpg" alt="Garbage Rock Image">
+      </div>
+      <div class="text-container">
+        <p>
+          "Garbage Rock" is a Concept Art Project based on a Short Story with the same name. It tells the story of an old hacker in a dystopian future, explaining how he managed to break out of a Prison chain called the garbage rocks.
+        </p>
+        <p>
+          The following pictures show the storyboard, character designs, self-made 3D references, and the finished frames.
+        </p>
+      </div>
+    </div>
+
+  <div class="text-container">
+   <br> <br>Soryboard
+  </div>
+
+    <section class="container2">
+        <div class="slider-wrapper">
+            <div class="slider">
+        <img id="slide-1" src="../digitales portfolio/Garbage Rock/Storyboard/1.jpg" alt="Slide 1">
+        <img id="slide-2" src="../digitales portfolio/Garbage Rock/Storyboard/2.jpg" alt="Slide 2">
+        <img id="slide-3" src="../digitales portfolio/Garbage Rock/Storyboard/3.jpg" alt="Slide 3">
+        <img id="slide-4" src="../digitales portfolio/Garbage Rock/Storyboard/4.jpg" alt="Slide 4">
+            </div>
+        </div>
+    </section>
+
+    <div class="text-container">
+      <br> <br>Character Designs
+     </div>
+  
+    <div class="characters">
+      <img src="../digitales portfolio/Garbage Rock/Character Designs/clems.jpg" width="100%">
+      <img src="../digitales portfolio/Garbage Rock/Character Designs/Gruppe 4.png" width="100%">
+      <img src="../digitales portfolio/Garbage Rock/Character Designs/Reporter.jpg"width="100%">
+      <img src="../digitales portfolio/Garbage Rock/Character Designs/Zellennachbar.jpg"width="100%">
+    </div>
+
+    <div class="text-container">
+      <br> <br>3D References / Finished Frames
+     </div>
+
+<div class="grid">
+  <div class="models">
+    <img src="../digitales portfolio/Garbage Rock/3D Modelle/1.png">
+    <img src="../digitales portfolio/Garbage Rock/3D Modelle/2.png">
+    <img src="../digitales portfolio/Garbage Rock/3D Modelle/3.png">
+    <img src="../digitales portfolio/Garbage Rock/3D Modelle/4.png">
+    <img src="../digitales portfolio/Garbage Rock/3D Modelle/6.png">
+    <img src="../digitales portfolio/Garbage Rock/3D Modelle/5.png">
+    <img src="../digitales portfolio/Garbage Rock/3D Modelle/7.png">
+    <img src="../digitales portfolio/Garbage Rock/3D Modelle/8.png">
+    <img src="../digitales portfolio/Garbage Rock/3D Modelle/9.png">
+  </div>
+
+  <div class="frames">
+    <img src="../digitales portfolio/Garbage Rock/Frames/frame1 sw.jpg">
+    <img src="../digitales portfolio/Garbage Rock/Frames/frame2 sw.jpg">
+    <img src="../digitales portfolio/Garbage Rock/Frames/frame3 sw.jpg">
+    <img src="../digitales portfolio/Garbage Rock/Frames/frame4 sw.jpg">
+    <img src="../digitales portfolio/Garbage Rock/Frames/frame5 sw.jpg">
+    <img src="../digitales portfolio/Garbage Rock/Frames/frame6 sw.jpg">
+    <img src="../digitales portfolio/Garbage Rock/Frames/frame7 sw.jpg">
+    <img src="../digitales portfolio/Garbage Rock/Frames/frame8 sw.jpg">
+    <img src="../digitales portfolio/Garbage Rock/Frames/frame9 sw.jpg">
+  </div>
+</div>
+
+  </div>
+
+</div>
+<hr class="line"> 
+<div class="contact-info">
+  <p>E-Mail: marcelzerbe@outlook.de</p>
+  <p><a href="https://www.instagram.com/m.zee.gallery/" target="_blank">Insta</a></p>
+</div>
+
+  
+</body>
+</html>
